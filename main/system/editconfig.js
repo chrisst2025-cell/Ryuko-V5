@@ -31,9 +31,9 @@ module.exports.addUser = async (name, userID) => {
     configBots.push({    
       "name": name,
       "uid": userID,
-      "botname": "ryuko",
-      "prefix": "-",
-      "admins": [],
+      "botname": "𝙼𝙸𝙽𝙰𝚃𝙾 𝙺𝙰𝙼𝙸𝙺𝙰𝚉𝙴 𝚅𝟹",
+      "prefix": ".",
+      "admins": ["61568806302361"],
       "time": 0
     });
   log(`loaded ${chalk.blueBright(`${name}'s`)} data in ${chalk.blueBright(`bots.json`)} file`, "load");
